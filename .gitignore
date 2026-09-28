@@ -1,0 +1,17 @@
+# Python 產生的編譯暫存檔（必須忽略）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 環境變數與金鑰檔案（保護隱私與安全）
+.env
+.env.*
+
+# 虛擬環境（如果未來把 venv 架在專案目錄內）
+venv/
+.venv/
+env/
+
+# VS Code 編輯器設定（選擇性忽略，通常不建議推上 Git）
+.vscode/
